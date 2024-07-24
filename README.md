@@ -1,23 +1,25 @@
 
 <img src="https://i.imgur.com/Hd9hIsT.jpg">
 
-# DOM Access "Menu" Lab
+# DOM Access "Menu" Homework
 
 ## Intro
 
-In the _Intro to the DOM_ we selected, manipulated and created DOM elements - this lab provides practice doing the same.
-
-This lab does something that is not very typical of real websites but demonstrates the power of DOM manipulation: we are going to build a menu bar with a slide-down submenu using only javascript and DOM manipulation.
+This homework does something that is not very typical of real websites but demonstrates the power of DOM manipulation: we are going to build a menu bar with a slide-down submenu using only javascript and DOM manipulation.
 
 > Note:  Several of the tasks in this lab would be better done upfront in the markup or CSS instead of using JS, however the goal of this lab is to provide practice modifying the DOM using JS. In your projects, if the HTML or CSS is known in advance and/or static (unchanging), code it in HTML and CSS!
 
-### This lab is a deliverable.
+### This lab is required
 
 ## Setup
 
-1. Create a new HTML/CSS/JS Repl and name it "DOM Lab".
+1. Clone this repository, and then open it in VSCode
+  
+2. Create an index.html and style.css and populate the html with the standard boilerplate.
+  
+3. Also, create a script.js file
 
-2. Update the `<body>` element in the **index.html** to this:
+5. Update the `<body>` element in the **index.html** to this:
 
 	```html
 	<body>
@@ -30,9 +32,9 @@ This lab does something that is not very typical of real websites but demonstrat
 	</body>
 	```
 
-	> Note: The markup is complete - **DO NOT** modify it in any way - do not add any classes. (You MAY only add id attributes)
+	> Note: The markup is complete - **DO NOT** modify it in any way - do not add any classes. (You can only **add id attributes**)
 
-3. Add the following CSS within **style.css**:
+6. Add the following CSS within **style.css**:
 
 	```css
 	* {
@@ -82,7 +84,7 @@ This lab does something that is not very typical of real websites but demonstrat
 
 	> Note: The CSS is complete - **DO NOT** modify it in any way.
 	
-	Take five minutes to familiarize yourself with [CSS Custom Properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - they are an amazing new addition to CSS. If you're familiar with using variables with SASS/LESS pre-processors, CSS Custom Properties are similar, but far more powerful because they are dynamic (their values can be changed during runtime) - and they are built into the CSS language!
+	Optional: Take five minutes to familiarize yourself with [CSS Custom Properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - they are an amazing new addition to CSS. If you're familiar with using variables with SASS/LESS pre-processors, CSS Custom Properties are similar, but far more powerful because they are dynamic (their values can be changed during runtime) - and they are built into the CSS language!
 
 ## Tasks
 
@@ -132,7 +134,9 @@ Add a class of `flex-around` to `topMenuEl`.
 
 <img src="https://i.imgur.com/tzYjw8n.png">
 
-#### Task 3.0 (optional - as we haven't covered arrays yet)
+# ALL done! #
+
+#### Task 3.0 (very very very optional - as we haven't covered arrays yet)
 
 Copy the following data structure to the top of **script.js**:
 
@@ -146,7 +150,7 @@ var menuLinks = [
 ];
 ```
 
-#### Task 3.1 (optional - as we haven't covered arrays yet)
+#### Task 3.1 (very very very optional - as we haven't covered arrays yet)
 
 Write a loop to iterate over the entire `menuLinks` array and for each "link" object:
 
